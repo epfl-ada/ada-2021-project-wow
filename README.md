@@ -29,21 +29,21 @@ The term "public figures" identifies all speakers of a quote present in the Quot
 We will use one external resource - Wikidata - for enriching the Quotebank data. This will provide extra information about the speakers, like the gender, necessary for some of the suggested analyses. The available data contains additional medatada on ~9M unique Wikidata entities and are stored in a ``.parquet`` file which can be loaded as a pandas dataframe. As this file contains attributes in terms of ``QIDs`` and are thus uninterpretable by humans, we need to map them to meaningful labels by using an available ``.csv`` file.
 
 (Optional dataset for the optional question)
-We can use the [world wide gender-name dictionary](!https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YPRQH8) that contains names with corresponding gender for 182 countries.  
+We can use the [world wide gender-name dictionary](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YPRQH8) that contains names with corresponding gender for 182 countries.  
 
 ## Methods
 #### Choice of the specific media outlets
-We will focus on the quotes present in some specific media outlets. Those can be chosen by ranking them by their number of quotes present in the Quotebank dataset and then taking the top 10 for example.
+We will focus on the quotes present in some specific media outlets. Those can be chosen by ranking them by their number of quotes present in the Quotebank dataset and then taking the top 10 for example. Or, we can chose the most popular english media outlets as stated in this [wikipedia article](https://en.wikipedia.org/wiki/News_media_in_the_United_States#Major_news_sources).
 
 #### 1. Media coverage of feminism over time
-We want to see the influence of time on the number of quotes related to feminism. To this, we need linear regression methods to assess how time influence the number of quotes. The data need potentially to be transformed if this relation is not linear (use visualization to infer relation).
+We want to see the influence of time on the proportion of quotes related to feminism. For this, we need linear regression methods to assess how time influences the number of quotes. The data need potentially to be transformed if this relation is not linear (use visualization to infer relation).
 
 #### 2. Sub-topic coverage
 Sub-topic coverage can be done using *topic modelling* - an unsupervised machine learning algorithm for discovering topics in a collection of documents. In order to do topic modelling, we will use Latent Dirichlet Allocation (LDA). LDA is based on two hypotheses:
 - Each document is represented as a distribution over topics. In other words, every document is a mixture of topics.
 - Each topic is represented as a distribution over words. In other words, every topic is a mixture of words.
 
-LDA is unable to decide on the number of topics, therefore this is a parameter that has to be chosen at implementation. Also, before calssifying the text to particular topics, it is necessary to do tokenization, remove stopwords, lemmatization and stem the words.
+LDA is unable to decide on the number of topics, therefore this is a parameter that has to be chosen at implementation. Also, before clustering the text into particular topics, it is necessary to do tokenization, remove stopwords, lemmatization and stem the words.
 
 #### 3. The general sentiment over feminism:
 The sentiment over feminism can be analysed using sentiment analysis on quotes related to feminism. The chosen method is *TextBlob* because it quantifies two measures:
@@ -51,10 +51,10 @@ The sentiment over feminism can be analysed using sentiment analysis on quotes r
 - The **subjectivity** of a quote - value between $0$ and $1$ which indicates the amount of personal opinion and factual information contained in the text.
 
 #### 4. Feminism "in practice"
-In the chosen media outlets, we compare the ratio of male vs. female speakers. Based on these medias, we can try to see if the exposure of the feminist quotes follows the exposure of female speakers over time (correlation). For this, we can use linear regression as learned in class to identify a potential correlation.
+In the chosen media outlets, we compare the ratio of male vs. female speakers. Based on these medias, we can try to see if there is correlation between the exposure of the feminist quotes and the exposure of female speakers over time. For this, we can use linear regression as learned in class to identify a potential correlation.
 
 (Method for the optional question)
-We want to do sentiment analysis on the quotes mentionning women and men. To do so, we can identify proper names using [nltk](!https://www.nltk.org/) and use the dataset of name-gender to determine if the quote is mentioning a man or a woman. Finally, we can do sentiment analysis on these quotes, in order to compare general sentiment over men vs. women in the quotebank dataset.
+We want to do sentiment analysis on the quotes mentioning women and men. To do so, we can identify proper names using [nltk](https://www.nltk.org/) and use the dataset of name-gender to determine if the quote is mentioning a man or a woman. Finally, we can do sentiment analysis on these quotes, in order to compare general sentiment over men vs. women in the quotebank dataset.
 
 ## Proposed Timeline and Organisation within the team
 Project Milestone 3 is due on the 17th of December, in 5 weeks. We have grouped the research questions in 4 topics. All questions shall be answered two weeks before the deadline, in order to have plenty of time to nicely present the results. The work in the first 3 weeks shall be organized as follows: each question shall be addressed by a pair of two teammates; the first two sets of questions will be answered in the first week and a half, the remaining two sets will be answered by the end of the third week. Below is the resulting list of internal milestones up until project Milestone 3.
