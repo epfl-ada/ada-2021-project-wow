@@ -46,9 +46,11 @@ Sub-topic coverage can be done using *topic modelling* - an unsupervised machine
 LDA is unable to decide on the number of topics, therefore this is a parameter that has to be chosen at implementation. Also, before clustering the text into particular topics, it is necessary to do tokenization, remove stopwords, lemmatization and stem the words.
 
 #### 3. The general sentiment over feminism:
-The sentiment over feminism can be analysed using sentiment analysis on quotes related to feminism. The chosen method is *TextBlob* because it quantifies two measures:
+The sentiment over feminism was analysed using sentiment analysis on quotes related to feminism. The chosen method is *TextBlob* because it quantifies two measures:
 - The **polarity** of a quote - value between $-1$ and $1$ where -1 indicates negative sentiment and +1 indicates positive sentiment.
 - The **subjectivity** of a quote - value between $0$ and $1$ which indicates the amount of personal opinion and factual information contained in the text.
+We also used this method in order to have the overall sentiment for the top 10 speakers and media that had the most quotes about feminism in order to figure out if some media or figures tend to have a negative or positive position about our topic.
+ 
 
 #### 4. Feminism "in practice"
 In the chosen media outlets, we compare the ratio of male vs. female speakers. Based on these medias, we can try to see if there is correlation between the exposure of the feminist quotes and the exposure of female speakers over time. For this, we can use linear regression as learned in class to identify a potential correlation.
