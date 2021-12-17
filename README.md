@@ -71,7 +71,7 @@ Project Milestone 3 is due on the 17th of December, in 5 weeks. We have grouped 
 
 
 ## Updated: actual contributions
-- Seif
+- Seif: Extraction of feminist quotes, all the sentiment analysis
 - Sophie: Data pre-processing, choice of media outlets, extraction of the quotes of the chosen media outlets, created the counts of quotes for each media, notebook cleaning, mentions of women and men, fraction of feminist quotes visualization
 - Mihaela : Some of the data processing (creation of pickles), using the new dataset (wikidata) for adding genders of the speakers, topic modelling, ratio of male and female speakers, website creation, added the data story to the website
 - Léonard: work on the first research question, consisting in helping to extract the relevant data, visualizing and analyzing it
