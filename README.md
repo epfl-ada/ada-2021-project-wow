@@ -67,3 +67,9 @@ Project Milestone 3 is due on the 17th of December, in 5 weeks. We have grouped 
 
 - **11/12:**
     - Presentation of results (website creation, story written, README updated)
+
+## Updated: actual contributions
+- Seif
+- Sophie
+- Mihaela
+- Léonard: work on the first research question, consisting in helping to extract the relevant data, visualizing and analyzing it
