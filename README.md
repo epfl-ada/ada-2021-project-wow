@@ -1,7 +1,9 @@
  <h2><center>Feminism in the media: from coverage to practice</center></h2>
 
+----> [Website](https://berezantev.github.io/) <-------
+
  Feminism is a range of social movements, political movements, and ideologies that aim to define and establish the political, economic, personal, and social equality of the sexes. Somehow, to this day there are many in the western society that shy away from defining themselves as pro-feminists, and many even oppose it. In fact, feminism is still a very controversial and politicized topic.
- In this project, we aim to shed a light on the evolution of feminism between 2015 and 2020 and its relation with the media, using the Quotebank dataset. In particular, we would like to analyze the media coverage that feminism is receiving, both in terms of volume and sentiment. Furthermore, we try to understand whether feminism is also being applied in practice by each media outlet.
+ In this project, we aim to shed a light on the evolution of feminism between 2015 and 2020 and its relation with the media, using the Quotebank dataset. In particular, we would like to analyze the media coverage that feminism is receiving, both in terms of volume and sentiment. Furthermore, we try to understand whether feminism is also being applied in practice by each media outlet. The website describing our results can be accessed [here](https://berezantev.github.io/).
 
 ## Research Questions
 
