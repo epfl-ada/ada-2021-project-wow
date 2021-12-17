@@ -53,6 +53,20 @@ We also used this method in order to have the overall sentiment for the top 10 s
 #### 4. Feminism "in practice"
 In the chosen media outlets, we compare the ratio of male vs. female speakers. We do the same with the ratio of quotes mentionning the men and the women.
 
+## Initial Timeline and Organisation within the team
+Project Milestone 3 is due on the 17th of December, in 5 weeks. We have grouped the research questions in 4 topics. All questions shall be answered two weeks before the deadline, in order to have plenty of time to nicely present the results. The work in the first 3 weeks shall be organized as follows: each question shall be addressed by a pair of two teammates; the first two sets of questions will be answered in the first week and a half, the remaining two sets will be answered by the end of the third week. Below is the resulting list of internal milestones up until project Milestone 3.
+
+- **24/11:**
+    - Media coverage of feminism over time (Seif, Sophie)
+    - Sub-topic coverage (Mihaela, Léo)
+
+- **4/12:**
+    - The general sentiment over feminism (Seif, Léo)
+    - Feminism "in practice" (Sophie, Mihaela)
+
+- **11/12:**
+    - Presentation of results (website creation, story written, README updated)
+
 
 ## Updated: actual contributions
 - Seif
