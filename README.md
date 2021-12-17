@@ -1,9 +1,9 @@
  <h2><center>Feminism in the media: from coverage to practice</center></h2>
 
-----> [Website](https://berezantev.github.io/) <-------
+-------> [Website](https://berezantev.github.io/) <-------
 
  Feminism is a range of social movements, political movements, and ideologies that aim to define and establish the political, economic, personal, and social equality of the sexes. Somehow, to this day there are many in the western society that shy away from defining themselves as pro-feminists, and many even oppose it. In fact, feminism is still a very controversial and politicized topic.
- In this project, we aim to shed a light on the evolution of feminism between 2015 and 2020 and its relation with the media, using the Quotebank dataset. In particular, we would like to analyze the media coverage that feminism is receiving, both in terms of volume and sentiment. Furthermore, we try to understand whether feminism is also being applied in practice by each media outlet. The website describing our results can be accessed [here](https://berezantev.github.io/).
+ In this project, we aim to shed a light on the evolution of feminism and gender equality in the media, using the Quotebank dataset. In particular, we would like to analyze the media coverage that feminism is receiving, both in terms of volume and sentiment. Furthermore, we try to assess how gender equality is being applied in practice by each media outlet. The website describing our results can be accessed [here](https://berezantev.github.io/).
 
 ## Research Questions
 
@@ -26,7 +26,7 @@ In these specific media outlets, how often are women vs. men mentionned in the q
 *Note on vocabulary:*
 The term "public figures" identifies all speakers of a quote present in the Quotebank dataset.
 
-## Proposed additional datasets
+## Additional datasets
 We use one external resource - Wikidata - for enriching the Quotebank data. This provides extra information about the speakers, like the gender, necessary for some of the suggested analyses. The available data contains additional medatada on ~9M unique Wikidata entities and are stored in a ``.parquet`` file which can be loaded as a pandas dataframe. As this file contains attributes in terms of ``QIDs`` and are thus uninterpretable by humans, we need to map them to meaningful labels by using an available ``.csv`` file.
 
 
@@ -53,7 +53,7 @@ We also used this method in order to have the overall sentiment for the top 10 s
 
 
 #### 4. Feminism "in practice"
-In the chosen media outlets, we compare the ratio of male vs. female speakers. We do the same with the ratio of quotes mentionning the men and the women.
+In the chosen media outlets, we compare the ratio of male vs. female speakers. We do the same with the ratio of quotes mentionning the men and the women. And compare the result with the ratio found in feminist quotes.
 
 ## Initial Timeline and Organisation within the team
 Project Milestone 3 is due on the 17th of December, in 5 weeks. We have grouped the research questions in 4 topics. All questions shall be answered two weeks before the deadline, in order to have plenty of time to nicely present the results. The work in the first 3 weeks shall be organized as follows: each question shall be addressed by a pair of two teammates; the first two sets of questions will be answered in the first week and a half, the remaining two sets will be answered by the end of the third week. Below is the resulting list of internal milestones up until project Milestone 3.
