@@ -47,8 +47,9 @@ LDA is unable to decide on the number of topics, therefore this is a parameter t
 
 #### 3. The general sentiment over feminism:
 The sentiment over feminism was analysed using sentiment analysis on quotes related to feminism. The chosen method is *TextBlob* because it quantifies two measures:
-- The **polarity** of a quote - value between $-1$ and $1$ where -1 indicates negative sentiment and +1 indicates positive sentiment.
-- The **subjectivity** of a quote - value between $0$ and $1$ which indicates the amount of personal opinion and factual information contained in the text.
+- The **polarity** of a quote - value between -1 and 1 where -1 indicates negative sentiment and +1 indicates positive sentiment.
+- The **subjectivity** of a quote - value between 0 and 1 which indicates the amount of personal opinion and factual information contained in the text.
+
 We also used this method in order to have the overall sentiment for the top 10 speakers and media that had the most quotes about feminism in order to figure out if some media or figures tend to have a negative or positive position about our topic.
  
 
